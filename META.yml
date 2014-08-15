@@ -5,7 +5,7 @@ author:
 build_requires:
   ExtUtils::MakeMaker: '0'
 configure_requires:
-  ExtUtils::MakeMaker::Coverage: '0.03'
+  ExtUtils::MakeMaker: '0'
 dynamic_config: 1
 generated_by: 'ExtUtils::MakeMaker version 6.98, CPAN::Meta::Converter version 2.141520'
 license: unknown
@@ -19,4 +19,4 @@ no_index:
     - inc
 requires:
   perl: 5.010_000
-version: '0.09'
+version: '0.1'
