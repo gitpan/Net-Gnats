@@ -1,4 +1,5 @@
 package Net::Gnats::PR;
+use 5.010_000;
 use utf8;
 use strict;
 use warnings;
@@ -10,6 +11,7 @@ require Exporter;
 use AutoLoader qw(AUTOLOAD);
 
 our @ISA = qw(Exporter);
+our $VERSION = '0.08';
 
 # Items to export into callers namespace by default. Note: do not
 # export names by default without a very good reason. Use EXPORT_OK
@@ -34,7 +36,7 @@ my $SYNOPSIS_FIELD = 'Synopsis';
 my $ORIGINATOR_FIELD = 'Originator';
 my $attachment_delimiter = "----gnatsweb-attachment----\n";
 my $SENDINCLUDE  = 1;   # whether the send command should include the field
-our $REVISION = '$Id: PR.pm,v 1.6 2014/08/15 11:45:54 thacker Exp $'; #'
+our $REVISION = '$Id: PR.pm,v 1.7 2014/08/15 15:34:25 thacker Exp $'; #'
 
 #******************************************************************************
 # Sub: new
