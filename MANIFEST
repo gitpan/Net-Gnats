@@ -1,7 +1,16 @@
-Gnats.pm
-Gnats/PR.pm
+lib/Net/Gnats.pm
+lib/Net/Gnats/PR.pm
+lib/Net/Gnats/Response.pm
 Changes
 MANIFEST
 Makefile.PL
 README
-test.pl
+t/test.t
+t/live.t
+t/prparser.t
+t/response.t
+t/regress_8.t
+t/regress_11.t
+
+META.yml                                 Module YAML meta-data (added by MakeMaker)
+META.json                                Module JSON meta-data (added by MakeMaker)
