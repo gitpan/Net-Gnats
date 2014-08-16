@@ -18,5 +18,6 @@ no_index:
     - t
     - inc
 requires:
+  Readonly: '1.61'
   perl: 5.010_000
-version: '0.1'
+version: '0.11'
